@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 1440px;
+}
+
+body {
+	font-family: 'Farro', sans-serif;
+	font-family: 'Francois One', sans-serif;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Staatliches', cursive;
+	font-family: 'Tourney', cursive;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+header p:nth-child(1) {
+	font-family: 'Tourney';
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	margin-right: 50px;
+	margin-left: 120px;
+}
+
+header p:nth-child(2) {
+	font-family: 'Staatliches';
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+}
+
+header img {
+	width: 238px;
+	height: 54px;
+	margin-left: 700px;
+}
+
+aside {
+	margin-left: 120px;
+	width: 385px;
+}
