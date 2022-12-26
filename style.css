@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	max-width: 1440px;
 }
 
 body {
@@ -11,6 +10,13 @@ body {
 	font-family: 'PT Sans', sans-serif;
 	font-family: 'Staatliches', cursive;
 	font-family: 'Tourney', cursive;
+	margin-right: 120px;
+	background-image: url("img/bg-picture.svg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right 150px;
+	background-size: 760px;
+	position: relative;
 }
 
 header {
@@ -18,6 +24,13 @@ header {
 	align-items: center;
 	margin-top: 30px;
 	margin-bottom: 100px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.header {
+	position: sticky;
+	top: 0;
 }
 
 header p:nth-child(1) {
@@ -44,5 +57,67 @@ header img {
 
 aside {
 	margin-left: 120px;
-	width: 385px;
+	max-width: fit-content;
+	font-family: 'Francois One';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 48px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-right: 30px;
+	float: left;
+	position: sticky;
+}
+
+aside ul {
+	list-style: none;
+}
+
+aside li {
+	margin-bottom: 70px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 5px;
+}
+
+aside a {
+	text-decoration: none;
+	color: black;
+}
+
+article {
+	display: block;
+	max-width: 785px;
+	float: right;
+}
+
+section h2 {
+	font-family: "Francois One", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin: 20px 0 40px 0;
+}
+
+section h2>span {
+	font-family: "Farro", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	text-transform: capitalize;
+	vertical-align: top;
+}
+
+section p {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 48px;
+	margin-bottom: 70px;
+}
+
+section p span {
+	background-color: #dadada;
 }
